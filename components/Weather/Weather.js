@@ -80,12 +80,12 @@ const Weather = ({
         </View>
         <View style={styles.containerTemp}>
           <Text
-            style={{ ...styles.headerText, fontSize: 18, color: colorText }}
+            style={{ ...styles.headerText, fontSize: 20, color: colorText }}
           >
             Min: {parseInt(temp_min - kelvin)}°
           </Text>
           <Text
-            style={{ ...styles.headerText, fontSize: 18, color: colorText }}
+            style={{ ...styles.headerText, fontSize: 20, color: colorText }}
           >
             Max: {parseInt(temp_max - kelvin)}°
           </Text>
